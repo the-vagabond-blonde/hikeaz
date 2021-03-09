@@ -59,3 +59,21 @@ header h2 {
 .carousel {
     border: solid #5637DD;
 }
+
+.search-main{
+    background-image:"Img/1557508727.jpg";
+    height:auto;
+    max-width: 100%;
+}
+
+.img-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
