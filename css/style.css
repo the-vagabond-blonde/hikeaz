@@ -87,11 +87,13 @@ header h2 {
   .banner {
     width: 100%;
     height: 20rem;
+    
   }
 
   .blue {
       background-color: #50C9BA;
-      margin: 10px;
+      padding: 1rem;
+      margin: 1rem;
   }
 
   .card {
@@ -101,3 +103,12 @@ header h2 {
   #card-title{
     text-align: center;
   }
+
+ .dropdown-Menu-Link {
+        display: block;
+        width: 100%;
+        margin-bottom: 2rem ;
+
+    }
+ 
+    

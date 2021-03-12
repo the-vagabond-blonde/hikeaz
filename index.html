@@ -88,97 +88,114 @@
         <div class="centered">
             <h1>Find Your Next Adventure</h1>
             <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Hike-Area-State-Park" aria-label="search"
-                    aria-describedby="basic-addon2">
+                <input type="text" class="form-control" placeholder="Trail-State-Area-Park">
                 <div class="input-group-append">
-                    <button class="btn btn-lg btn-dark" type="search">Search</button>
+                    <button class="btn btn-dark" type="search">Explore</button>
                 </div>
             </div>
         </div>
     </div>
 
-
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-4 blue">
-                <div class="card" style="">
-                    <h2 id="card-title"> Search By Tag </h2>
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                        In Season
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                        Popular
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                        Dog Friendly
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                        Stroller Accesible
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                        Backpacking
-                                    </label>
-                                </div>
+            <div class="col-sm-4 blue card">
+                <h2 id="card-title"> Search By Tag </h2>
+                <div class="card-body">
+                   <div class="row">
+                       <div class="col">
+                        <div class="dropdown show">
+                            <a class="btn btn-secondary btn-lg dropdown-toggle dropdown-Menu-Link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Select Your State
+                            </a>      
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                              <a class="dropdown-item" href="#">Arizona</a>
+                              <a class="dropdown-item" href="#">California</a>
+                              <a class="dropdown-item" href="#">Colorado</a>
+                              <a class="dropdown-item" href="#">New Mexico</a>
+                              <a class="dropdown-item" href="#">Oregon</a>
+                              <a class="dropdown-item" href="#">Utah</a>
                             </div>
-                            <div class="col">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                        Waterfall
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                        Summit
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                        Trail Running
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                        Canyoneering
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                        Wildlife
-                                    </label>
-                                </div>
+                          </div>
+                       </div>
+                   </div>
+                   
+                   
+                   
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    In Season
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Popular
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Dog Friendly
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Stroller Accesible
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Backpacking
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Waterfall
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Summit
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Trail Running
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Canyoneering
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Wildlife
+                                </label>
                             </div>
                         </div>
                     </div>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
+                <a href="#" class="btn btn-warning btn-lg">Explore</a>
             </div>
-            <div class="col-sm blue">
-                One of two columns
-            </div>
-        </div>
         
+        <div class="col-sm blue">
+            One of two columns
+        </div>
+    </div>
+
     </div>
 
 
