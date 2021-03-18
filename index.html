@@ -22,14 +22,14 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-sm sticky-top">
+    <nav class="navbar navbar-expand-md sticky-top navbar-dark">
         <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hikeazNavbar">
                 <span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="nucampNavbar">
+            <div class="collapse navbar-collapse" id="hikeazNavbar">
                 <ul class="navbar-nav">
-                    <li class="nav-item item-active"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Membership</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#membership">Membership</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Your Maps</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Contribute</a></li>
                 </ul>
@@ -212,7 +212,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-4 ">
-                <div class="card">
+                <div class="card-blue">
                     <div class="card-body">
                         <div class="image-card">
                             <div class="card img-fluid" style="width:500px">
@@ -229,7 +229,7 @@
             </div>
 
             <div class="col-md-4">
-                <div class="card">
+                <div class="card-blue">
                     <div class="card-body">
                         <div class="image-card">
                             <div class="card img-fluid" style="width:500px">
@@ -246,7 +246,7 @@
             </div>
 
             <div class="col-md-4">
-                <div class="card">
+                <div class="card-blue">
                     <div class="card-body">
                         <div class="image-card">
                             <div class="card img-fluid" style="width:500px">
@@ -264,30 +264,75 @@
         </div>
     </div>
 
-    <div class="container-fluid">
-        <div class="row">
-            <h2>Membership Options</h2>
+
+
+
+
+    <div class="container-fluid d-none d-lg-block">
+        <div>
+            <div class="row break-row">
+                <h2 class="break-row">Membership Options</h2>
+            </div>
         </div>
-        <div clas="col-md-4">
-            <h3>Free Membership</h3>
 
+        <div class= "d-none d-lg-block">
+            <div class="card">
 
-            <div clas="col-md-4">
-                <div clas="col-md-4">
+                <div class="row">
+                    <div class="col-md-4 card-col">
+                        <h2 class="card-title" id="membership">Free Membership</h2>
+                        <ul>
+                            <li>View and explore all maps </li>
+                            <li>Join the community</li>
+                            <li>Save Wish List hikes</li>
+                        </ul>
+                        <button class="btn-dark btn-block signup">Sign Me Up!</button>
+                    </div>
+
+                    <div class="col-md-4 card-col">
+                        <h2 class="card-title">Monthly Membership</h2>
+                        <ul>
+                            <li>View and explore all maps </li>
+                            <li>Join the community</li>
+                            <li>Save Wish List hikes</li>
+                            <li class="li-new">Track your hikes and mileage</li>
+                            <li class="li-new">Contribute new hikes</li>
+                        </ul>
+                        <button class="btn-dark btn-block signup">Sign Me Up!</button>
+                    </div>
+                    <div class="col-md-4 card-col">
+                        <h2 class="card-title">Annual Membership</h2>
+                        <ul>
+                            <li>View and explore all maps </li>
+                            <li>Join the community</li>
+                            <li>Save Wish List hikes</li>
+                            <li>Track your hikes and mileage</li>
+                            <li>Contribute new hikes</li>
+                            <li class="li-new">Free HikeAZ sticker and T-shirt</li>
+                            <li class="li-new">Unlimited lifetime access to all content</li>
+                        </ul>
+                        <button class="btn-dark btn-block signup">Sign Me Up!</button>
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
 
+    <footer class="bg-light text-center text-lg-start">
+        
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2021 Copyright:
+          <a class="text-dark" href="https://hikeaz.com/">HikeAZ.com</a>
+        </div>
+      </footer>
 
 
 
-
-
-    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>

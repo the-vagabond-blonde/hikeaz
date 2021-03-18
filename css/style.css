@@ -30,12 +30,6 @@ h3 {
   padding: 20px 0;
 }
 
-.jumbotron {
-  padding: 30px;
-  background-image: linear-gradient(to right, #5637dd, #3046c5, #60106b);
-  color: white;
-  margin: 0;
-}
 
 .row-content {
   padding: 50px 0;
@@ -44,7 +38,8 @@ h3 {
 }
 
 .navbar {
-  background-color: #cbcbcb;
+  background-color:#cc6d28;
+  ;
   color: black;
 }
 
@@ -61,10 +56,6 @@ h3 {
   color: black;
 }
 
-.item-active {
-  background-color: #282828;
-  color: white;
-}
 
 .carousel {
   border: solid #5637dd;
@@ -107,13 +98,25 @@ h3 {
   margin: 1rem;
 }
 
-.card {
+.card-blue {
   background-color: #50c9ba;
+  border: 1rem;
+}
+
+.card-col {
+  border-style: ridge;
+  border-width: 5px;
 }
 
 #card-title {
   text-align: center;
   font-size: max(3vw, 30px);
+}
+
+.card-title {
+  text-align: center;
+  font-size: max(3vw, 30px);
+  color: black;
 }
 
 .dropdown-Menu-Link {
@@ -182,5 +185,14 @@ input[type="checkbox"]:checked {
     margin:auto;
     font-size: max(4vw, 40px);
     
+}
+
+.li-new {
+  color:blue;
+}
+
+.signup {
+  text-align: center;
+
 }
 
